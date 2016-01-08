@@ -29,9 +29,6 @@ void CaptureScreen()
    ShowWindow(consoleWnd, FALSE);
    Sleep(1000);
 
-   char fileName[1024];
-   strcpy(fileName, "D:\\Suresh\\And\\Projects\\ScreenCapture\\ScreenImage.bmp");
-
    SetCursor(LoadCursor(NULL,IDC_WAIT));
 
    int nScreenWidth  = GetSystemMetrics(SM_CXSCREEN);
